@@ -8,4 +8,4 @@ class Book(models.Model):
     quantity = models.IntegerField()
     
     def __str__(self):
-        return self.title
+        return self.author
